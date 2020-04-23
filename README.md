@@ -23,11 +23,12 @@ where `name-of-ruby-script` is any ruby file contained inside the folder.
 
 ## Contents
 **1.0 Bubble Sort**
+
   One of the simpler (but more processor-intensive) ways of sorting a group of items in an array is bubble sort, where each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted.
   This algorithm is optimized to always ignore the last element upon completion of the first iteration. 
   Another check is also put in place to determine if the array of elements is already sorted or not. If already sorted, the algorithm returns the original array.
   
-  [screenshot]("./assets/img/bubble-sort.png")
+  ![screenshot]("./assets/img/bubble-short.png")
 
 ## Authors
 
