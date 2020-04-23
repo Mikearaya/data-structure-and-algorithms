@@ -29,6 +29,8 @@ def bubble_sort(array)
 end
 
 def bubble_sort_by(array)
+  return 'No block given' unless block_given?
+
   index = 0
   length = array.length - 1
   loop do
