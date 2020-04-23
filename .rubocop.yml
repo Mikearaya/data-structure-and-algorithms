@@ -48,7 +48,3 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
-Style/ExponentialNotation:
-  Enabled: false
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: true
