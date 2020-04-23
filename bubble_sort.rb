@@ -1,13 +1,10 @@
 def bubble_sort(array)
   is_sorted = false
-
   i = 0
   length = array.length - 1
-
   loop do
     j = 0
     is_sorted = true
-
     break if i == length
 
     loop do
@@ -25,12 +22,10 @@ def bubble_sort(array)
 
     i += 1
   end
-  array.to_s
+  array
 end
 
 def bubble_sort_by(array)
-  return 'No block given' unless block_given?
-
   index = 0
   length = array.length - 1
   loop do
@@ -47,7 +42,7 @@ def bubble_sort_by(array)
 
     index += 1
   end
-  array.to_s
+  array
 end
 
 puts bubble_sort([4, 3, 78, 2, 0, 2])
