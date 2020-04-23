@@ -1,7 +1,7 @@
 def bubble_sort(array)
   is_sorted = false
   i = 0
-  length = array.length - 1
+  length = array.size - 1
   loop do
     j = 0
     is_sorted = true
@@ -27,7 +27,7 @@ end
 
 def bubble_sort_by(array)
   index = 0
-  length = array.length - 1
+  length = array.size - 1
   loop do
     is_sorted = true
     break if index == length - 1
@@ -47,4 +47,4 @@ end
 
 puts bubble_sort([4, 3, 78, 2, 0, 2])
 
-puts bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }
+puts bubble_sort_by(%w[hi hello hey]) { |left, right| left.size - right.size }
