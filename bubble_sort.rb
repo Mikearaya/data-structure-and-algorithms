@@ -1,4 +1,4 @@
-def bubble_sort array
+def bubble_sort(array)
   is_sorted = false
 
   i = 0
@@ -11,21 +11,17 @@ def bubble_sort array
     break if i == length
 
     loop do
-
       break if j + i == length
-    
+
       if array[j] > array[j + 1]
-        array[j], array[j+1] = array[j+1], array[j]
+        array[j], array[j + 1] = array[j + 1], array[j]
         is_sorted = false
       end
       break if j == length - 1
 
       j += 1
     end
-
-    if is_sorted 
-      break
-    end
+    break if is_sorted
 
     i += 1
   end
