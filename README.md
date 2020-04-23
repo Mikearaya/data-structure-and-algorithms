@@ -28,7 +28,7 @@ where `name-of-ruby-script` is any ruby file contained inside the folder.
   This algorithm is optimized to always ignore the last element upon completion of the first iteration. 
   Another check is also put in place to determine if the array of elements is already sorted or not. If already sorted, the algorithm returns the original array.
   
-  ![screenshot]("./assets/img/bubble-short.png")
+  ![screenshot](./assets/img/bubble-short.png)
 
 ## Authors
 
