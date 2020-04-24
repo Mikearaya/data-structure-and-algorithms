@@ -30,6 +30,8 @@ where `name-of-ruby-script` is any ruby file contained inside the folder.
   
   ![screenshot](./assets/img/bubble-short.png)
 
+  [![Run on Repl.it](https://repl.it/badge/github/Mikearaya/data-structure-and-algorithms)](https://repl.it/github/Mikearaya/data-structure-and-algorithms)
+
 ## Authors
 
 👤 **Mikael Araya**
